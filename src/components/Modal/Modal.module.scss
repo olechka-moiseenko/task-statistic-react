@@ -1,0 +1,85 @@
+.popup {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    background: rgba(19, 18, 18, 0.66);
+    top: 0;
+    left: 0;
+  }
+  
+  .content_block {
+    max-width: 600px;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: auto;
+  }
+  
+  .title {
+    padding-top: 20px;
+    padding-bottom: 38px;
+  
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.17;
+    color: #000000;
+  }
+  
+  .list {
+    margin-left: 20px;
+    width: 560px;
+  }
+  
+  .item {
+    display: flex;
+    margin-bottom: 48px;
+  }
+  
+  .item:last-child {
+    margin-bottom: 36px;
+  }
+  
+  .text {
+    margin-left: 29px;
+  
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #666666;
+  }
+  
+  .numbers {
+    margin-left: auto;
+    margin-right: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  
+    color: #666666;
+  }
+  
+  .button {
+    width: 171px;
+    height: 49px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  
+    border: none;
+    background: #2196f3;
+    border-radius: 20px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+  
+    color: #ffffff;
+    cursor: pointer;
+  }
